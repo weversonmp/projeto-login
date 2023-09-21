@@ -35,7 +35,7 @@ section#login {
   overflow: hidden;
 
   background-color: white;
-  width: 250px;
+  width: 260px;
   height: 500px;
   border-radius: 20px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.45);
@@ -49,10 +49,20 @@ section#login > div#imagem {
   background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
   height: 200px;
   background-size: cover;
-  border-right: 1px solid rgba(173, 173, 173, 0.842);
+  border-bottom: 1px solid rgba(173, 173, 173, 0.842);
+
 }
 
 section#login > div#formulario {
   display: block;
   padding: 10px;
+}
+
+div#formulario > h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+div#formulario > p {
+  font-size: 0.8em;
 }
